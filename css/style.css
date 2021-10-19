@@ -2,9 +2,9 @@
 /*Style All pages*/
 body{
   background-color: lightblue;
-  /* set width to 80% */
-  /* set margin-left to auto */
-  /* set margin-right to auto */
+  width: 80%;/* set width to 80% */
+  margin-left: auto;/* set margin-left to auto*/
+  margin-right: auto;/* set margin-right to auto*/
 }
 
 header{
@@ -12,21 +12,22 @@ header{
 }
 
 
-/*create caption class */
-  /* inside caption class set float property to left */
-  /* inside caption class set text-align property to center */
-  /* inside caption class set margin-right property to 20% */
+.caption {/*create caption class */
+ float: right;/* inside caption class set float property to left */
+  text-align: center;/* inside caption class set text-align property to center */
+  margin-right: 20%;/* inside caption class set margin-right property to 20% */
+}
 
 nav{
   font-family:Calibri, Arial,sans-serif;
   font-size: 1.25em;
   font-weight:bold;
   text-align:center;
-  /* set margin-top to 20px */
-  /* set margin-bottom to 30px */
-  /* set padding to 10px */
-  /* set border-top to 5px solid #FFFFFF */
-  /* set border-bottom to 5px solid #FFFFFF */
+  margin-top: 20px;/* set margin-top to 20px */
+  margin-bottom: 30px;/* set margin-bottom to 30px */
+  padding: 10px;/* set padding to 10px */
+  border-top: 5px solid #FFFFFF;/* set border-top to 5px solid #FFFFFF */
+  border-bottom: 5px solid #FFFFFF;/* set border-bottom to 5px solid #FFFFFF */
 }
 
 
@@ -34,27 +35,27 @@ nav{
   display: block;
   font-family:Calibri, Arial,sans-serif;
   font-size:1em;
-  /* set margin-top to 20px  */
-  /* set margin-bottom to 10px  */
-  /* set padding to 20px  */
-  /* set border-radius to 10px  */
-  /* set background-color:#FFFFFF; */
-  /* set box-shadow:12px 12px 12px #404040; */
+  margin-top: 20px;/* set margin-top to 20px  */
+  margin-bottom: 10px;/* set margin-bottom to 10px  */
+  padding: 20px;  /* set padding to 20px  */
+  border-radius: 10px;/* set border-radius to 10px  */
+  background-color: #FFFFFF;/* set background-color:#FFFFFF; */
+  box-shadow: 12px 12px 12px #404040;/* set box-shadow:12px 12px 12px #404040; */
 }
 
-/* Style a footer  */
-  /*set font-size to .70em  */
-  /*set text-align to center */
-  /*set margin-top to 150px */
-
+footer { /* Style a footer  */
+font-size: 0.70em;  /*set font-size to .70em  */
+text-align: center;/*set text-align to center */
+margin-top: 150px;/*set margin-top to 150px */
+}
 
 
 
 /*Style Classics page */
-
-  /*create column class */
-  /*set float property to left  */
-  /*set padding-left property to 10%  */
+.column{  /*create column class */
+ float: left; /*set float property to left  */
+padding-left: 10%;  /*set padding-left property to 10%  */
+}
 
 .row::after {
     content: "";
